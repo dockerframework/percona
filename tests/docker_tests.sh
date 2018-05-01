@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 DOCKER_IMAGE="dockerframework/percona"
-DOCKER_TAG="5.7"
+DOCKER_TAG="latest"
 
 #### Halt script on error
 set -e
