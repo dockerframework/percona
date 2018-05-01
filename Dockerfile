@@ -1,4 +1,4 @@
-ARG PERCONA_VERSION=5.6.39
+ARG PERCONA_VERSION=5.7.21
 FROM percona:${PERCONA_VERSION}
 
 # ================================================================================================

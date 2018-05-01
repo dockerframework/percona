@@ -18,7 +18,7 @@ services:
       - ./config/mysql/my.cnf:/etc/my.cnf                                 # my.cnf mysql
       - ./config/mysql/conf.d/laradock.cnf:/etc/mysql/conf.d/docker.cnf   # docker.cnf mysql
     environment:
-      - MYSQL_VERSION=5.6.39
+      - MYSQL_VERSION=5.7.21
       - MYSQL_ROOT_PASSWORD=password                       # root password
       - MYSQL_ROOT_HOST=mysql                              # grant user hostmask (optional)
       - MYSQL_DATABASE=laradock_percona                    # create database (optional)
